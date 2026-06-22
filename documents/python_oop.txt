@@ -1,0 +1,41 @@
+Python Object-Oriented Programming
+
+Object-oriented programming, or OOP, organizes code using classes and objects.
+
+A class defines a blueprint.
+
+Example:
+
+class Student:
+pass
+
+An object is created from a class.
+
+Example:
+
+student1 = Student()
+
+Classes can contain attributes and methods.
+
+Example:
+
+class Student:
+def **init**(self, name):
+self.name = name
+
+```
+def greet(self):
+    print("Hello", self.name)
+```
+
+OOP principles include:
+
+Encapsulation
+
+Inheritance
+
+Polymorphism
+
+Abstraction
+
+OOP helps organize large programs and makes code easier to maintain and reuse.

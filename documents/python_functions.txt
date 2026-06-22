@@ -1,0 +1,38 @@
+Python Functions
+
+Functions are reusable blocks of code that perform specific tasks.
+
+A function is defined using the def keyword.
+
+Example:
+
+def greet():
+print("Hello")
+
+Functions can accept parameters.
+
+Example:
+
+def greet(name):
+print("Hello", name)
+
+Functions can return values.
+
+Example:
+
+def add(a, b):
+return a + b
+
+result = add(2, 3)
+
+Functions improve code organization, readability, and reusability.
+
+Benefits of functions include:
+
+Reducing repeated code
+
+Making programs easier to maintain
+
+Improving readability
+
+Functions are a fundamental building block of Python programs.

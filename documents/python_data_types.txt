@@ -1,0 +1,38 @@
+Python Data Types
+
+Python supports several built-in data types used to store different kinds of information.
+
+Common data types include:
+
+String (str)
+Stores text values.
+
+Example:
+name = "Alice"
+
+Integer (int)
+Stores whole numbers.
+
+Example:
+age = 21
+
+Float (float)
+Stores decimal numbers.
+
+Example:
+gpa = 3.85
+
+Boolean (bool)
+Stores True or False values.
+
+Example:
+is_student = True
+
+Python automatically determines the data type when a value is assigned.
+
+The type() function can be used to check a variable's type.
+
+Example:
+type(age)
+
+Choosing the correct data type helps ensure accurate calculations and efficient programs.

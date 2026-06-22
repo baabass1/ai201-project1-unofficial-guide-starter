@@ -1,0 +1,41 @@
+Python Dictionaries
+
+A dictionary stores data as key-value pairs. Dictionaries are useful when information has labels or identifiers.
+
+Example:
+
+student = {
+"name": "Alice",
+"age": 21,
+"major": "Biology"
+}
+
+Values are accessed using keys.
+
+Example:
+
+print(student["name"])
+
+Output:
+
+Alice
+
+New items can be added.
+
+Example:
+
+student["gpa"] = 3.8
+
+Common dictionary methods include:
+
+keys()
+
+values()
+
+items()
+
+get()
+
+Dictionaries are mutable and can be modified after creation.
+
+They are commonly used to store structured information and lookup data quickly.

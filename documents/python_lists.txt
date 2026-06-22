@@ -1,0 +1,41 @@
+Python Lists
+
+A list is a collection used to store multiple items in a single variable. Lists are ordered, mutable, and allow duplicate values.
+
+Example:
+
+fruits = ["apple", "banana", "orange"]
+
+Items can be accessed using indexes.
+
+Example:
+
+print(fruits[0])
+
+Output:
+
+apple
+
+Lists can be modified after creation.
+
+Example:
+
+fruits.append("grape")
+
+Common list methods include:
+
+append() – adds an item
+
+remove() – removes an item
+
+sort() – sorts the list
+
+pop() – removes an item by index
+
+Lists can contain different data types.
+
+Example:
+
+data = ["Alice", 21, True]
+
+Lists are useful for storing groups of related information and processing data efficiently.

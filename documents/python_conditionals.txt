@@ -1,0 +1,41 @@
+Python Conditionals
+
+Conditional statements allow programs to make decisions.
+
+Python uses if, elif, and else statements.
+
+Example:
+
+age = 21
+
+if age >= 18:
+print("Adult")
+else:
+print("Minor")
+
+Multiple conditions can be evaluated.
+
+Example:
+
+score = 85
+
+if score >= 90:
+print("A")
+elif score >= 80:
+print("B")
+else:
+print("C")
+
+Comparison operators include:
+
+==
+!=
+
+>
+
+<
+
+> =
+> <=
+
+Conditionals help programs respond differently depending on input and circumstances.

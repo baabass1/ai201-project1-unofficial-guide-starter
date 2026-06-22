@@ -1,0 +1,26 @@
+Python Loops
+
+Loops allow code to run repeatedly.
+
+The two main types of loops in Python are for loops and while loops.
+
+For loop example:
+
+for i in range(5):
+print(i)
+
+While loop example:
+
+count = 0
+
+while count < 5:
+print(count)
+count += 1
+
+The break statement exits a loop early.
+
+The continue statement skips the current iteration and moves to the next one.
+
+Loops are useful for processing collections, repeating tasks, and automating calculations.
+
+Care must be taken with while loops to avoid infinite loops.

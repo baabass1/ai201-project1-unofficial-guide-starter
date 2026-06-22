@@ -1,0 +1,32 @@
+Python Variables
+
+Variables are used to store data in a Python program. A variable is created when a value is assigned to it.
+
+Examples:
+
+x = 5
+name = "Abass"
+gpa = 3.8
+
+Python automatically determines the type of a variable based on the assigned value. This is known as dynamic typing.
+
+Common variable types include:
+- String
+- Integer
+- Float
+- Boolean
+
+Variable names should be descriptive and cannot start with a number. They may contain letters, numbers, and underscores.
+
+Variables can be reassigned:
+
+age = 21
+age = 22
+
+The second assignment replaces the previous value.
+
+Multiple variables can be assigned in a single line:
+
+a, b, c = 1, 2, 3
+
+Variables help programmers store, update, and use information throughout a program.

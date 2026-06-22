@@ -1,0 +1,33 @@
+Python Error Handling
+
+Errors can occur while a program runs.
+
+Python uses try and except blocks to handle errors gracefully.
+
+Example:
+
+try:
+number = int(input("Enter a number: "))
+except ValueError:
+print("Invalid input")
+
+Multiple exceptions can be handled separately.
+
+Example:
+
+try:
+result = 10 / 0
+except ZeroDivisionError:
+print("Cannot divide by zero")
+
+Error handling prevents programs from crashing unexpectedly and improves user experience.
+
+Common exceptions include:
+
+ValueError
+
+TypeError
+
+IndexError
+
+ZeroDivisionError
