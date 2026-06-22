@@ -1,9 +1,4 @@
-# Project 1 Planning: The Unofficial Guide
-
-> Write this document before you write any pipeline code.
-> Your spec and architecture diagram are what you'll use to direct AI tools (Claude, Copilot, etc.) to generate your implementation — the more specific they are, the more useful the generated code will be.
-> Update the Retrieval Approach and Chunking Strategy sections if you change your approach during implementation.
-> Update this file before starting any stretch features.
+# Project 1 Planning: Guide
 
 ---
 
@@ -106,37 +101,18 @@ The domain is Python programming fundamentals. This knowledge is valuable becaus
 
 ---
 
-+----------------------+
-|  Document Files (.txt) |
-+----------------------+
-            |
-            v
-+----------------------+
-| SentenceTransformer  |
-| all-MiniLM-L6-v2     |
-+----------------------+
-            |
-            v
-+----------------------+
-| ChromaDB Vector Store|
-+----------------------+
-            |
-            v
-+----------------------+
-| Top-3 Retrieval      |
-+----------------------+
-            |
-            v
-+----------------------+
-| Groq Llama 3.3 70B   |
-+----------------------+
-            |
-            v
-+----------------------+
-| Gradio User Interface|
-+----------------------+
+## Architecture
 
+```mermaid
+flowchart TD
+    A[Document Files .txt] --> B[SentenceTransformer<br/>all-MiniLM-L6-v2]
+    B --> C[ChromaDB Vector Store]
+    C --> D[Top-3 Retrieval]
+    D --> E[Groq Llama 3.3 70B]
+    E --> F[Gradio User Interface]
+```
 
+---
 
 ## AI Tool Plan
 
