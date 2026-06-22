@@ -213,13 +213,9 @@ System response (refusal): I do not know.
 | # | Question                             | Expected answer           | System response (summarized)                                                         | Retrieval quality | Response accuracy |
 | - | ------------------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------- | ----------------- |
 | 1| What is a Python variable?           | A variable stores data and is created when a value is assigned.| Correctly explained                                                              | Relevant          | Accurate          |
-
 | 2| What is a list?                      | A list is an ordered, mutable collection that can contain duplicate values. | Correctly described lists                                    | Relevant          | Accurate          |
-
 | 3| What is a dictionary?                | A dictionary stores information as key-value pairs.            | Correctly explained dictionaries and key-value pair storage.                     | Relevant          | Accurate          |
-
 | 4| What is object oriented programming? | OOP organizes code using classes and objects.                  | Correctly explained classes, objects, and the purpose of OOP.                    | Relevant          | Accurate          |
-
 | 5| Who won the 2022 FIFA World Cup?     | The system should refuse because the answer is not in the documents. | Returned "I do not know."                                              | Relevant          | Accurate          |
 
 
