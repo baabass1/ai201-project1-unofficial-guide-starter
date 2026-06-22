@@ -197,9 +197,9 @@ System response (refusal): I do not know.
 <!-- Show a complete query → response exchange as it actually appears in your interface.
      Must be text — not a screenshot. -->
 
-> **User:** What is a Python variable?
+**User:** What is a Python variable?
 
-> **System:** A Python variable is used to store data in a Python program and is created when a value is assigned to it.
+**System:** A Python variable is used to store data in a Python program and is created when a value is assigned to it.
 
 ---
 

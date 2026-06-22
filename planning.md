@@ -151,19 +151,19 @@ The domain is Python programming fundamentals. This knowledge is valuable becaus
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
-> AI Tool: ChatGPT
-> Input: Domain section, Documents section, and Chunking Strategy section from planning.md.
-> Expected Output: Python code to load all .txt files from the documents folder and prepare them for embedding. Since the documents are short, each document will be stored as a single chunk with no overlap.
-> Verification: Confirm that all 10 documents are loaded successfully and that the document count matches the number of files in the documents folder.
+AI Tool: ChatGPT
+Input: Domain section, Documents section, and Chunking Strategy section from planning.md.
+Expected Output: Python code to load all .txt files from the documents folder and prepare them for embedding. Since the documents are short, each document will be stored as a single chunk with no overlap.
+Verification: Confirm that all 10 documents are loaded successfully and that the document count matches the number of files in the documents folder.
 
 **Milestone 4 — Embedding and retrieval:**
-> AI Tool: ChatGPT
-> Input: Retrieval Approach section, selected embedding model (all-MiniLM-L6-v2), and retrieval requirements from the project guide.
-> Expected Output: Code that generates embeddings using SentenceTransformer, stores them in ChromaDB, and retrieves the top 3 most relevant documents for a query.
-> Verification: Test retrieval with questions about variables, lists, dictionaries, and object-oriented programming. Verify that the returned documents are relevant to the query.
+AI Tool: ChatGPT
+Input: Retrieval Approach section, selected embedding model (all-MiniLM-L6-v2), and retrieval requirements from the project guide.
+Expected Output: Code that generates embeddings using SentenceTransformer, stores them in ChromaDB, and retrieves the top 3 most relevant documents for a query.
+Verification: Test retrieval with questions about variables, lists, dictionaries, and object-oriented programming. Verify that the returned documents are relevant to the query.
 
 **Milestone 5 — Generation and interface:**
-> AI Tool: ChatGPT
-> Input: Retrieval pipeline design, grounding requirements, and query interface requirements from the project guide.
-> Expected Output: Code that sends retrieved context to Groq's Llama 3.3 70B model and displays responses through a Gradio interface.
-> Verification: Confirm that in-domain questions return grounded answers and that out-of-scope questions such as "Who won the 2022 FIFA World Cup?" return "I do not know."
+AI Tool: ChatGPT
+Input: Retrieval pipeline design, grounding requirements, and query interface requirements from the project guide.
+Expected Output: Code that sends retrieved context to Groq's Llama 3.3 70B model and displays responses through a Gradio interface.
+Verification: Confirm that in-domain questions return grounded answers and that out-of-scope questions such as "Who won the 2022 FIFA World Cup?" return "I do not know."
